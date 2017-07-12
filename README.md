@@ -2,6 +2,7 @@
 
 1. Konsep 
 Warna Dasar : Hitam, Biru, Putih
+
 Font : Sans-Serif ( Roboto, Lato, Jockey One )
 
 2. Referensi

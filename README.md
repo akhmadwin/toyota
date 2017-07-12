@@ -1,14 +1,36 @@
-# Dokumentasi Ringkas Desain HTML - CSS Dealer Toyota
+# Snap Documentation - Toyota
 
-1. Konsep 
+1. Main Concept
 
-Warna Dasar : Hitam, Biru, Putih
-Font : Sans-Serif ( Roboto, Lato, Jockey One )
+a. Color
+- White, Black, Sky Blue
 
-2. Referensi
-- toyota.astra.co.id
+b. Font
+- Sans-serif : Jockey One, Roboto
+
+c. Reference
+- http://toyota.astra.co.id
 - http://promotoyotamalang.com
 - http://toyotajawatimur.id/
 
-Halaman Produk menyusul
+NB :
+- Perlunya arahan yang lebih lengkap supaya lebih mudah dalam menentukan konsep desain yang matang
+- SDLC needed.
+
+2. Updates
+
+a. Home
+- Navbar : mega-site ( not yet )
+- Slider : owl-carousel with text + link
+- Service : box-hover, transform, translate
+- Product : not yet
+- Blog : not yet
+- Footer : background image with caption + link
+
+b. Product
+not yet
+
+
+
+
 

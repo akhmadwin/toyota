@@ -1,0 +1,247 @@
+html, body {
+  background: #fff url(../../images/waves.png);
+  font-family: 'Roboto', sans-serif;
+  color: #121212; }
+
+a {
+  color: #fff; }
+
+a:hover {
+  color: #00adc1;
+  text-decoration: none; }
+
+h1, h2 {
+  font-family: 'Lato', sans-serif;
+  font-weight: normal; }
+
+h3, h4 {
+  font-family: 'Roboto', serif; }
+
+.no-padding {
+  padding: 0; }
+  .no-padding .no-margin {
+    margin: 0; }
+
+.topbar {
+  width: auto;
+  background-color: #121212;
+  font-family: 'Roboto', sans-serif;
+  color: #fff;
+  padding: 5px;
+  text-align: center;
+  line-height: 2; }
+  .topbar li {
+    color: #fff; }
+    .topbar li a {
+      color: #fff; }
+      .topbar li a:hover, .topbar li a:focus {
+        height: 100%;
+        color: #00adc1;
+        background: transparent; }
+
+#navbar-custom.navbar-default {
+  font-size: 14px;
+  background: #fff;
+  border: none;
+  margin: 0;
+  padding-bottom: 10px; }
+  #navbar-custom.navbar-default .navbar-nav li {
+    font-weight: bold; }
+    #navbar-custom.navbar-default .navbar-nav li a {
+      color: #121212;
+      text-transform: uppercase; }
+      #navbar-custom.navbar-default .navbar-nav li a:hover, #navbar-custom.navbar-default .navbar-nav li a:focus {
+        height: 100%;
+        color: #00adc1;
+        background: transparent; }
+    #navbar-custom.navbar-default .navbar-nav li .navbar-form {
+      margin-top: 15px; }
+  #navbar-custom.navbar-default .navbar-nav .active a {
+    background-color: #fff;
+    height: 100%;
+    border-bottom: 3px solid #121212;
+    color: #121212; }
+  #navbar-custom.navbar-default .navbar-toggle {
+    border-color: #fff; }
+    #navbar-custom.navbar-default .navbar-toggle :hover, #navbar-custom.navbar-default .navbar-toggle :focus {
+      background-color: #121212; }
+      #navbar-custom.navbar-default .navbar-toggle :hover .icon-bar, #navbar-custom.navbar-default .navbar-toggle :focus .icon-bar {
+        background-color: #121212; }
+    #navbar-custom.navbar-default .navbar-toggle .icon-bar {
+      background-color: #121212;
+      border-color: #121212; }
+  #navbar-custom.navbar-default .dropdown-menu {
+    background: #fff;
+    padding: 10px;
+    border-radius: 3px; }
+
+.slider {
+  min-height: 500px; }
+
+.slider-content {
+  left: 0;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 80%;
+  text-align: left;
+  z-index: 2; }
+
+.slider-text {
+  margin-top: 140px;
+  font-family: 'Jockey One', sans-serif;
+  color: #fff;
+  line-height: 1.8; }
+  .slider-text .slider-box {
+    margin-top: 30px; }
+  .slider-text .slider-btn {
+    font-family: 'Roboto';
+    color: #fff;
+    margin: 0;
+    font-size: 16px;
+    background: transparent;
+    text-decoration: none;
+    width: auto;
+    padding: 10px 20px 10px 20px;
+    box-shadow: inset 0 0 0 3px #fff; }
+    .slider-text .slider-btn a {
+      margin-right: 15px;
+      text-decoration: none; }
+    .slider-text .slider-btn:hover {
+      background: #00adc1;
+      color: #fff;
+      box-shadow: inset 0 0 0 3px #fff;
+      text-decoration: none; }
+
+@media only screen and (max-width: 1169px) {
+  body h1 {
+    font-size: 20px;
+    margin: 0px; }
+  body h4 {
+    font-size: 16px; }
+  body .slider-text {
+    margin-top: 25px; }
+    body .slider-text .slider-btn {
+      font-size: 10px; }
+  body .service-box {
+    height: 100px;
+    -webkit-transition: 0.1s ease-in-out;
+    -moz-transition: 0.1s ease-in-out;
+    -o-transition: 0.1s ease-in-out;
+    transition: 0.1s ease-in-out; }
+    body .service-box .service-icon {
+      padding-top: 30px;
+      font-size: 40px; }
+    body .service-box .service-text {
+      padding-bottom: 20px; } }
+.title {
+  padding: 10px;
+  font-family: 'Jockey One', sans-serif; }
+
+.service {
+  text-align: left;
+  padding: 25px 0 25px 0; }
+  .service .service-box {
+    background-color: transparent;
+    height: auto;
+    -webkit-transition: 0.2s ease-in-out;
+    -moz-transition: 0.2s ease-in-out;
+    -o-transition: 0.2s ease-in-out;
+    transition: 0.2s ease-in-out; }
+    .service .service-box:hover {
+      background-color: #00adc1;
+      color: #fff;
+      transform: scale(1.1); }
+  .service .service-icon {
+    text-align: center;
+    padding-top: 50px;
+    font-size: 70px; }
+    .service .service-icon:hover {
+      color: #fff;
+      -ms-transform: rotate(5deg);
+      /* IE 9 */
+      -webkit-transform: rotate(5deg);
+      /* Safari */
+      transform: rotate(5deg);
+      /* Standard syntax */ }
+  .service .service-text {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    font-family: 'Jockey One', sans-serif; }
+    .service .service-text:hover {
+      color: #fff; }
+
+.product {
+  padding: 25px 0 25px 0;
+  background: #fff;
+  padding-bottom: 70px; }
+  .product .product-image {
+    padding: 20px 20px 0 20px; }
+  .product .product-title {
+    font-family: 'Jockey One', sans-serif;
+    text-align: center; }
+  .product .product-price {
+    font-family: 'Roboto', sans-serif;
+    border-top: 1px solid #000;
+    padding-top: 5px; }
+    .product .product-price .product-price-left {
+      letter-spacing: 1.5px;
+      text-align: left; }
+    .product .product-price .product-price-right {
+      font-weight: bold;
+      text-align: right;
+      color: #e02c2c; }
+
+.footer {
+  background: #fff url(../../images/innova.jpg);
+  background-size: cover; }
+  .footer .footer-box p {
+    color: #fff; }
+  .footer .footer-back {
+    background-color: rgba(0, 156, 181, 0.9);
+    padding: 60px 0 30px; }
+  .footer .footer-judul {
+    font-family: 'Jockey One', sans-serif;
+    color: #fff; }
+  .footer .footer-content {
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    letter-spacing: 1.2px; }
+  .footer .footer-social {
+    color: #fff;
+    line-height: 2; }
+    .footer .footer-social li {
+      padding: 20px; }
+
+.footer-copy {
+  margin-top: 30px; }
+  .footer-copy .footer-copy-text {
+    font-family: 'Jockey One', sans-serif;
+    color: #ffffff;
+    letter-spacing: 1px;
+    margin-top: 9px; }
+
+.social-item {
+  display: inline-block;
+  margin: 0 7px; }
+
+.social-link {
+  text-align: center;
+  display: block;
+  width: 32px;
+  height: 32px;
+  padding-top: 6px;
+  font-size: 13px;
+  color: #fff;
+  border: 1px solid #eee;
+  border-radius: 50%;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s; }
+
+.social-link:hover {
+  color: #fff;
+  border: 1px solid #0038AA; }
+
+/*# sourceMappingURL=style.css.map */

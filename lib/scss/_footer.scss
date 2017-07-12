@@ -1,0 +1,74 @@
+.footer {
+    background: #fff url(../../images/innova.jpg);
+    background-size: cover;
+
+    .footer-box {
+        p {
+         color: #fff;
+        }
+    }
+
+    .footer-back {
+        background-color: rgba(0, 156, 181,.9);
+        padding: 60px 0 30px;
+    }
+
+    .footer-judul {
+        font-family: 'Jockey One', sans-serif;
+        color: $link;
+    }
+
+    .footer-content {
+        font-family: 'Roboto', sans-serif;
+        color: #fff;
+        letter-spacing: 1.2px;
+    }
+
+    .footer-social {
+        color: #fff;
+        line-height: 2;
+
+        li
+        {
+            padding: 20px;
+        }
+
+    }
+}
+
+.footer-copy {
+    margin-top: 30px;
+
+    .footer-copy-text {
+        font-family: 'Jockey One', sans-serif;
+        color: #ffffff;
+        letter-spacing: 1px;
+        margin-top: 9px;
+    }
+}
+
+
+
+.social-item {
+    display: inline-block;
+    margin: 0 7px;
+}
+
+.social-link {
+    text-align: center;
+    display: block;
+    width: 32px;
+    height: 32px;
+    padding-top: 6px;
+    font-size: 13px;
+    color: #fff;
+    border: 1px solid #eee;
+    border-radius: 50%;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.social-link:hover {
+    color: #fff;
+    border: 1px solid #0038AA;
+}

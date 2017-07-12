@@ -13,6 +13,8 @@ c. Reference
 - http://promotoyotamalang.com
 - http://toyotajawatimur.id/
 
+d. build dg SCSS + responsive ( tapi msh perlu perbaikan :) )
+
 NB :
 - Perlunya arahan yang lebih lengkap supaya lebih mudah dalam menentukan konsep desain yang matang
 - SDLC needed.

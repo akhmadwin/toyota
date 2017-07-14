@@ -1,0 +1,40 @@
+.sidebar
+{
+	.sidebar-title
+	{
+		padding-top:30px;
+		font-family: 'Jockey One', sans-serif;
+		font-size: 28px;
+		color: $hover;
+	}
+
+	.sidebar-link
+	{
+
+		font-family: 'Lato', sans-serif;
+
+		a
+		{	
+			font-size: 16px;
+			color: $basic;
+			text-decoration: none;
+
+			&:hover
+			{
+				color: $hover;
+			}
+		}
+
+		li
+		{
+			padding-top: 10px;
+			color: $basic;
+
+		}
+
+		i
+		{
+			padding-right: 10px; 
+		}
+	}
+}

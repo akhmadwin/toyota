@@ -9,7 +9,8 @@
     }
 
     .footer-back {
-        background-color: rgba(0, 156, 181,.9);
+        background-color:$hover;
+        opacity: 0.9;
         padding: 60px 0 30px;
     }
 
@@ -26,11 +27,17 @@
 
     .footer-social {
         color: #fff;
-        line-height: 2;
 
         li
         {
-            padding: 20px;
+            padding: 10px;
+            line-height: 1.5;
+        }
+
+        i
+        {
+            padding-right: 5px;
+            font-size: 15px;
         }
 
     }
@@ -47,14 +54,13 @@
     }
 }
 
-
-
-.social-item {
+.footer-social-item {
     display: inline-block;
     margin: 0 7px;
+    text-align: center;
 }
 
-.social-link {
+.footer-social-link {
     text-align: center;
     display: block;
     width: 32px;
@@ -66,9 +72,9 @@
     border-radius: 50%;
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
-}
 
-.social-link:hover {
-    color: #fff;
-    border: 1px solid #0038AA;
+    &:hover {
+        color: #fff;
+        border: 1px solid red;
+    }
 }

@@ -1,45 +1,45 @@
-// CONTENT SLIDER
+// ---------------- SLIDER ----------------------
 
 .slider
 {
-	min-height: 500px;
+	padding: 0;
+	margin: 0;
 }
 
 .slider-content {
-    left: 0;
-    margin: auto;
+    left: 60px;
     position: absolute;
-    top: 0;
-    right: 0;
-    width: 80%;
+    top: 100px;
+    right: 50;
+    width: auto;
     text-align: left;
-    z-index: 2;
+	background: rgb(196, 25, 25); /* fallback color */
+    background: rgba(196, 25, 25, 0.7);
 }
-
 
 .slider-text {
 
-    margin-top: 140px;
+    padding: 30px;
     font-family: 'Jockey One', sans-serif;
     color: $link;
     line-height: 1.8;
+    opacity: 1;
 
     .slider-box
     {
-    	margin-top: 30px;
+    	padding-top: 20px;
     }
 
     .slider-btn {
    			 
    			 font-family: 'Roboto';
    			 color: $link;
-   			 margin: 0;
    			 font-size: 16px;
   			 background: transparent;
   			 text-decoration: none;
   			 width: auto;
   			 padding: 10px 20px 10px 20px;
-  			 box-shadow: inset 0 0 0 3px #fff;
+  			 box-shadow: inset 0 0 0 2px #fff;
 				
 			a {
     			margin-right: 15px;
@@ -50,64 +50,13 @@
 			{
 				background: $hover;
 				color: #fff;
-				box-shadow: inset 0 0 0 3px #fff;
+				box-shadow: inset 0 0 0 2px #fff;
 				text-decoration: none;
 			}
 	}
 }
 
-@media only screen and (max-width: 1169px) {
-  body {
-
-  	h1
-  	{
-  		font-size:20px;
-  		margin: 0px;
-  	}
-
-  	h4
-  	{
-  		font-size: 16px;
-  	}
-
-  	.slider-text
-  	{
-  		margin-top: 25px;
-
-  		.slider-btn
-  		{
-  			font-size: 10px;
-  		}
-  	}
-
-  	.service-box
-	{
-		height: 100px;
-		-webkit-transition: 0.1s ease-in-out;
-  		-moz-transition: 0.1s ease-in-out;
-  		-o-transition: 0.1s ease-in-out;
-  		transition: 0.1s ease-in-out;
-
-  		.service-icon
-		{
-
-			padding-top: 30px;
-			font-size: 40px;
-		}
-
-		.service-text
-		{
-			padding-bottom: 20px;
-		}
-	}
-
-    
-  }
-}
-
-
-
-// TITLE
+// --------------- TITLE -------------------
 
 .title
 {
@@ -115,12 +64,13 @@
 	font-family: 'Jockey One', sans-serif;
 }
 
-// SERVICE
+// -------------- SERVICE --------------------
 
 .service
 {
 	text-align: left;
-	padding: 25px 0 25px 0;
+	padding: 20px 0 40px 0;
+	width: auto;
 
 
 	.service-box
@@ -131,6 +81,7 @@
   		-moz-transition: 0.2s ease-in-out;
   		-o-transition: 0.2s ease-in-out;
   		transition: 0.2s ease-in-out;
+  		margin-top: 10px;
 
 		&:hover
 		{
@@ -144,7 +95,7 @@
 	.service-icon
 	{
 		text-align: center;
-		padding-top: 50px;
+		padding-top: 20px;
 		font-size: 70px;
 
 		&:hover{
@@ -159,8 +110,8 @@
 	.service-text
 	{
 		text-align: center;
-		padding-top: 20px;
-		padding-bottom: 50px;
+		padding-top: 0px;
+		padding-bottom: 20px;
   		font-family: 'Jockey One', sans-serif;
 
 		&:hover{
@@ -171,7 +122,7 @@
 }
 
 
-// PRODUCT
+// -------------- PRODUCT -----------------
 
 .product
 {
@@ -200,6 +151,13 @@
 		{
 			letter-spacing: 1.5px;
 			text-align: left;
+
+			 h4
+		      {
+		        font-size: 14px;
+		        letter-spacing: 1.5px;
+		        line-height: 1.2;
+		      }
 		}
 
 		.product-price-right
@@ -207,7 +165,172 @@
 			font-weight: bold;
 			text-align: right;
 			color: #e02c2c;
+
+			 h4
+		      {
+		        font-size: 14px;
+		 		font-weight: bold;
+		        line-height: 1.2;
+		      }
 		}
 	
+	}
+}
+
+.parallax {
+    background: #fff url(../../images/slider3.jpg);
+    background-attachment: fixed;
+    height: 500px;
+    background-position: center;
+}
+
+
+.blog
+{
+	height: auto;
+	padding: 25px 0 25px 0;
+	background: #fff;
+	font-family: 'Lato', sans-serif;
+
+	.blog-title
+	{
+		line-height: 1.5;
+		letter-spacing: 0.2px;
+
+		&:hover
+		{
+			color: $hover;
+		}
+	}
+
+	.blog-meta
+	{
+		color: #a7a7a7;
+	}
+
+	.blog-intro
+	{
+		h5
+		{
+			line-height: 1.5;
+		}
+	}
+
+	.blog-box
+	{
+		a
+		{
+			color: $hover;
+			letter-spacing: 2px;
+
+			&:hover
+			{
+				color: $basic;
+				text-decoration: none;
+			}
+		}
+	}
+
+}
+
+.prod-detail
+{
+
+	font-family: 'Lato', sans-serif;
+	.prod-detail-image
+	{	
+		padding-top: 30px;
+
+		img
+		{
+			width: 100%;
+		}
+	}
+
+	.prod-detail-title
+	{
+	left: 50px;
+    position: absolute;
+    top: 400px;
+    right: 50;
+
+    width: auto;
+    text-align: left;
+    background: rgba(0, 0, 0, 0.7);
+
+    .prod-detail-title-text {
+
+	  	padding: 0px 20px 20px 20px ;
+	    font-family: 'Jockey One', sans-serif;
+	    color: $link;
+	    line-height: 1.8;
+	    opacity: 1;
+	}
+}
+
+	.prod-detail-intro
+	{
+		padding: 20px;
+		background: $red-transparent;
+		color: $link;
+	}
+
+	.prod-detail-content-title
+	{
+		padding: 10px 0px 0px 0px;
+		font-family: 'Jockey One', sans-serif;
+		color: $basic;
+
+		h4
+		{
+			font-size: 20px;
+		}
+	}
+
+
+	.prod-detail-kontak-list
+	{
+		
+		font-family: 'Lato', sans-serif;
+			
+		h4
+		{
+			font-size: 26px;
+		}
+
+		p
+		{
+			font-size: 16px;
+			color: $basic;
+		}
+
+		i
+		{
+			padding-right: 10px;
+			color: $hover;
+		}
+	}
+
+	
+
+	table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+	}
+
+	th, td {
+	    text-align: center;
+	    padding: 8px;
+	}
+
+	tr:nth-child(even){background-color: #f2f2f2}
+
+	tr:nth-child(odd){background-color: #fff}
+
+	th {
+	    background-color: #4CAF50;
+	    color: white;
 	}
 }

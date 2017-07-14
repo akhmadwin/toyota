@@ -4,8 +4,9 @@
 
 $basic: #121212;
 $link : #fff;
-$hover : #00adc1;
+$hover : #c41919;
 $white : #fff;
+$red-transparent : rgba(196, 25, 25, 0.7);
 
 
 html, body{
@@ -38,9 +39,10 @@ h3, h4{
     padding: 0;
 
     .no-margin {
-    	margin: 0;
+    	margin: -30px;
 		}
 }
+
 
 
 
